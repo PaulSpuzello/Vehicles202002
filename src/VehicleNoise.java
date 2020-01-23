@@ -13,6 +13,9 @@ public class VehicleNoise {
     
     		Camper jayco = new Camper();
 		System.out.println(jayco.makeNoise());
+		
+		Bus blueBird = new Bus();
+		System.out.println(blueBird.makeNoise());
 	}
 
 }
