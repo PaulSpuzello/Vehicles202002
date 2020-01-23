@@ -16,6 +16,9 @@ public class VehicleNoise {
 		
 		Van genericVan = new Van();
 		System.out.println(genericVan.makeNoise());
+		
+		Truck someToyota = new Truck("Tacoma", 2016, "4WD");
+		System.out.println(someToyota.makeNoise());
 	}
 
 }
