@@ -19,6 +19,9 @@ public class VehicleNoise {
 		
 		Truck someToyota = new Truck("Tacoma", 2016, "4WD");
 		System.out.println(someToyota.makeNoise());
+		
+		Airplane airbus = new Airplane();
+		System.out.println(airbus.makeNoise());
 	}
 
 }
