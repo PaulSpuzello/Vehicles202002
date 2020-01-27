@@ -8,6 +8,20 @@ public class VehicleNoise {
 		Car honda = new Car();
 		System.out.println(honda.makeNoise());
 		
+		Boat baglietto = new Boat();
+		System.out.println(baglietto.makeNoise());
+    
+    	Camper jayco = new Camper();
+		System.out.println(jayco.makeNoise());
+		
+		Bus blueBird = new Bus();
+		System.out.println(blueBird.makeNoise());
+		
+		Truck someToyota = new Truck("Tacoma", 2016, "4WD");
+		System.out.println(someToyota.makeNoise());
+		
+		Airplane airbus = new Airplane();
+		System.out.println(airbus.makeNoise());
 	}
 
 }
